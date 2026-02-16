@@ -8,6 +8,7 @@
   "description": "Create pixel art with an interactive grid of toggleable pixels",
   "keywords": [ "pixel", "art", "grid", "draw" ],
   "textdomain": "pixel-art-block",
+  "domain": "pixel-art-block",
   "supports": {
     "html": false,
     "align": [ "wide", "full" ]
