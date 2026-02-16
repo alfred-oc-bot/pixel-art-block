@@ -1,0 +1,1 @@
+.pixel-art-block-container{padding:24px}.pixel-art-grid{background-color:#e0e0e0;border:1px solid #8c8f94;display:grid;gap:1px;margin:0 auto;max-width:600px;padding:1px}.pixel-art-pixel{aspect-ratio:1;background-color:#fff;border:none;width:100%}@media(max-width:480px){.pixel-art-block-container{padding:16px}.pixel-art-grid{max-width:100%}}

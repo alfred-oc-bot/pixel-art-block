@@ -5,6 +5,9 @@
 import { __ } from '@wordpress/i18n';
 import { useBlockProps } from '@wordpress/block-editor';
 
+import './styles/editor.scss';
+import './styles/style.scss';
+
 export const blockConfig = {
 	apiVersion: 3,
 	name: 'pixel-art-block/pixel-art',
