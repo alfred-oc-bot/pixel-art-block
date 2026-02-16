@@ -1,6 +1,6 @@
 {
   "$schema": "https://playground.wordpress.net/blueprint-schema.json",
-  "landingPage": "/wp-admin/plugins.php",
+  "landingPage": "/pixel-art-test/",
   "login": true,
   "steps": [
     {
@@ -16,6 +16,12 @@
     {
       "step": "activatePlugin",
       "pluginPath": "pixel-art-block/pixel-art-block.php"
+    },
+    {
+      "step": "createPage",
+      "title": "Pixel Art Test",
+      "content": "<!-- wp:pixel-art-block/pixel-art-block -->",
+      "status": "publish"
     }
   ]
 }
