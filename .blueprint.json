@@ -1,25 +1,35 @@
 {
   "$schema": "https://playground.wordpress.net/blueprint-schema.json",
-  "landingPage": "/pixel-art-test/",
+  "landingPage": "/wp-admin/plugins.php",
   "login": true,
   "steps": [
     {
-      "step": "installPlugin",
-      "pluginData": {
-        "resource": "git:directory",
-        "url": "https://github.com/alfred-oc-bot/pixel-art-block",
-        "path": "code",
-        "ref": "main",
-        "refType": "branch"
+      "step": "writeFile",
+      "path": "/wordpress/wp-content/plugins/pixel-art-block/pixel-art-block.php",
+      "data": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/alfred-oc-bot/pixel-art-block/main/pixel-art-block.php"
+      }
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/wp-content/plugins/pixel-art-block/block.json",
+      "data": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/alfred-oc-bot/pixel-art-block/main/block.json"
+      }
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/wp-content/plugins/pixel-art-block/build/index.js",
+      "data": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/alfred-oc-bot/pixel-art-block/main/build/index.js"
       }
     },
     {
       "step": "activatePlugin",
       "pluginPath": "pixel-art-block/pixel-art-block.php"
-    },
-    {
-      "step": "wp-cli",
-      "command": "wp post create --post_title='Pixel Art Test' --post_content='<!-- wp:pixel-art-block/pixel-art-block -->' --post_status=publish"
     }
   ]
 }
