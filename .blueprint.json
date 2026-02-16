@@ -4,25 +4,22 @@
   "login": true,
   "steps": [
     {
-      "step": "writeFile",
-      "path": "/wordpress/wp-content/plugins/pixel-art-block/pixel-art-block.php",
-      "data": {
+      "step": "installPlugin",
+      "pluginData": {
         "resource": "url",
         "url": "https://raw.githubusercontent.com/alfred-oc-bot/pixel-art-block/main/pixel-art-block.php"
       }
     },
     {
-      "step": "writeFile",
-      "path": "/wordpress/wp-content/plugins/pixel-art-block/block.json",
-      "data": {
+      "step": "installPlugin",
+      "pluginData": {
         "resource": "url",
         "url": "https://raw.githubusercontent.com/alfred-oc-bot/pixel-art-block/main/block.json"
       }
     },
     {
-      "step": "writeFile",
-      "path": "/wordpress/wp-content/plugins/pixel-art-block/index.js",
-      "data": {
+      "step": "installPlugin",
+      "pluginData": {
         "resource": "url",
         "url": "https://raw.githubusercontent.com/alfred-oc-bot/pixel-art-block/main/build/index.js"
       }
