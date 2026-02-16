@@ -11,6 +11,10 @@ A WordPress Gutenberg block that renders an interactive square grid of pixels. U
 - State saved to block attributes
 - Responsive design
 
+## Try It Live
+
+[![Try in WordPress Playground](https://playground.wordpress.net/badge.svg)](https://playground.wordpress.net/?plugin=https://github.com/alfred-oc-bot/pixel-art-block&mode=seamless)
+
 ## Requirements
 
 - WordPress 6.0 or higher

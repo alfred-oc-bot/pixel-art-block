@@ -1,0 +1,37 @@
+{
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "meta": {
+    "title": "Pixel Art Block - Try It Now",
+    "description": "Create pixel art with an interactive grid in the WordPress Block Editor",
+    "author": "Pixel Art Block",
+    "categories": ["demo", "block", "creative"]
+  },
+  "landingPage": "/wp-admin/post-new.php",
+  "preferredVersions": {
+    "php": "8.3",
+    "wp": "latest"
+  },
+  "features": {
+    "networking": true
+  },
+  "steps": [
+    {
+      "step": "login",
+      "username": "admin",
+      "password": "password"
+    },
+    {
+      "step": "installPlugin",
+      "pluginData": {
+        "resource": "url",
+        "url": "https://github.com/alfred-oc-bot/pixel-art-block/releases/latest/download/pixel-art-block.zip"
+      }
+    },
+    {
+      "step": "activatePlugin",
+      "pluginData": {
+        "slug": "pixel-art-block"
+      }
+    }
+  ]
+}
