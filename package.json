@@ -1,0 +1,31 @@
+{
+  "name": "pixel-art-block",
+  "version": "1.0.0",
+  "description": "A WordPress Gutenberg block for creating pixel art",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start",
+    "format": "wp-scripts format",
+    "lint:css": "wp-scripts lint-style",
+    "lint:js": "wp-scripts lint-js"
+  },
+  "keywords": [
+    "wordpress",
+    "gutenberg",
+    "block",
+    "pixel-art"
+  ],
+  "author": "",
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+    "@wordpress/scripts": "^26.0.0"
+  },
+  "dependencies": {
+    "@wordpress/block-editor": "^13.0.0",
+    "@wordpress/blocks": "^12.0.0",
+    "@wordpress/components": "^25.0.0",
+    "@wordpress/element": "^3.0.0",
+    "@wordpress/i18n": "^4.0.0"
+  }
+}

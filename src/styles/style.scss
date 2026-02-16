@@ -1,0 +1,35 @@
+/**
+ * Frontend styles for Pixel Art Block
+ */
+
+.pixel-art-block-container {
+	padding: 24px;
+}
+
+.pixel-art-grid {
+	display: grid;
+	gap: 1px;
+	background-color: #E0E0E0;
+	border: 1px solid #8C8F94;
+	padding: 1px;
+	margin: 0 auto;
+	max-width: 600px;
+}
+
+.pixel-art-pixel {
+	background-color: #FFFFFF;
+	border: none;
+	aspect-ratio: 1;
+	width: 100%;
+}
+
+/* Mobile responsive */
+@media (max-width: 480px) {
+	.pixel-art-block-container {
+		padding: 16px;
+	}
+	
+	.pixel-art-grid {
+		max-width: 100%;
+	}
+}

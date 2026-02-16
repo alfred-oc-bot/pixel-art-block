@@ -1,0 +1,28 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "pixel-art-block/pixel-art",
+  "version": "1.0.0",
+  "title": "Pixel Art",
+  "category": "media",
+  "description": "Create pixel art with an interactive grid of toggleable pixels",
+  "keywords": [ "pixel", "art", "grid", "draw" ],
+  "textdomain": "pixel-art-block",
+  "supports": {
+    "html": false,
+    "align": [ "wide", "full" ]
+  },
+  "attributes": {
+    "gridSize": {
+      "type": "number",
+      "default": 16
+    },
+    "pixels": {
+      "type": "array",
+      "default": []
+    }
+  },
+  "editorScript": "file:./build/index.js",
+  "editorStyle": "file:./build/index.css",
+  "style": "file:./build/style-index.css"
+}
