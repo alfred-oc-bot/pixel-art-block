@@ -1,0 +1,1 @@
+(()=>{"use strict";const i=window.wp.i18n;window.wp.blockEditor,(0,i.__)("Pixel Art","pixel-art-block"),(0,i.__)("Create pixel art with an interactive grid of toggleable pixels","pixel-art-block"),(0,i.__)("pixel","pixel-art-block"),(0,i.__)("art","pixel-art-block"),(0,i.__)("grid","pixel-art-block")})();
