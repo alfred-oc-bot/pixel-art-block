@@ -4,13 +4,6 @@
   "login": true,
   "steps": [
     {
-      "step": "installPlugin",
-      "pluginData": {
-        "resource": "wordpress.org/plugins",
-        "slug": "gutenberg"
-      }
-    },
-    {
       "step": "writeFile",
       "path": "/wordpress/wp-content/plugins/pixel-art-block/pixel-art-block.php",
       "data": {
