@@ -6,9 +6,8 @@
     {
       "step": "installPlugin",
       "pluginData": {
-        "resource": "git:directory",
-        "url": "https://github.com/alfred-oc-bot/pixel-art-block",
-        "path": "code"
+        "resource": "git",
+        "url": "https://github.com/alfred-oc-bot/pixel-art-block"
       }
     },
     {
