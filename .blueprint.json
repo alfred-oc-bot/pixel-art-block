@@ -11,6 +11,10 @@
         "ref": "HEAD",
         "refType": "refname"
       }
+    },
+    {
+      "step": "activatePlugin",
+      "pluginPath": "pixel-art-block/pixel-art-block.php"
     }
   ]
 }
