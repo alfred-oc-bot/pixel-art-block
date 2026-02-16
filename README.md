@@ -13,7 +13,7 @@ A WordPress Gutenberg block that renders an interactive square grid of pixels. U
 
 ## Try It Live
 
-[![Try in WordPress Playground](https://playground.wordpress.net/badge.svg)](https://playground.wordpress.net/?plugin=https://github.com/alfred-oc-bot/pixel-art-block&mode=seamless)
+The Pixel Art Block requires building the plugin first. See Installation instructions below.
 
 ## Requirements
 
