@@ -18,7 +18,7 @@
       "pluginPath": "pixel-art-block/pixel-art-block.php"
     },
     {
-      "step": "wp",
+      "step": "wp-cli",
       "command": "wp post create --post_title='Pixel Art Test' --post_content='<!-- wp:pixel-art-block/pixel-art-block -->' --post_status=publish"
     }
   ]
