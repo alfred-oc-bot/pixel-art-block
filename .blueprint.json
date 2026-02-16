@@ -18,10 +18,8 @@
       "pluginPath": "pixel-art-block/pixel-art-block.php"
     },
     {
-      "step": "createPage",
-      "title": "Pixel Art Test",
-      "content": "<!-- wp:pixel-art-block/pixel-art-block -->",
-      "status": "publish"
+      "step": "wp",
+      "command": "wp post create --post_title='Pixel Art Test' --post_content='<!-- wp:pixel-art-block/pixel-art-block -->' --post_status=publish"
     }
   ]
 }
