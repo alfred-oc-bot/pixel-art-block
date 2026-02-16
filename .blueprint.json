@@ -14,7 +14,7 @@
     },
     {
       "step": "activatePlugin",
-      "pluginPath": "pixel-art-block/pixel-art-block.php"
+      "pluginPath": "pixel-art-block"
     }
   ]
 }
