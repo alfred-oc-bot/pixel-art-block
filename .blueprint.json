@@ -6,15 +6,18 @@
     {
       "step": "installPlugin",
       "pluginData": {
+        "resource": "wordpress.org/plugins",
+        "slug": "gutenberg"
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginData": {
         "resource": "git:directory",
         "url": "https://github.com/alfred-oc-bot/pixel-art-block",
         "ref": "HEAD",
         "refType": "refname"
       }
-    },
-    {
-      "step": "activatePlugin",
-      "pluginPath": "pixel-art-block"
     }
   ]
 }
